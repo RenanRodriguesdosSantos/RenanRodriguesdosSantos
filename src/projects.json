@@ -1,0 +1,136 @@
+[
+    {
+        "name" : "Map Contact",
+        "discription" : "Visualização de Contatos em um mapa",
+        "foto" : "images/mapcontato.png",
+        "tecnologies" : [
+            {
+                "name" : "JavaScript",
+                "icon" : "images/icons/js.png"
+            },
+            {
+                "name" :"PHP",
+                "icon" : "images/icons/php.png"
+            },
+            {
+                "name" :"HTML",
+                "icon" : "images/icons/html.png"
+            },
+            {
+                "name" : "Bootstrap",
+                "icon" :"images/icons/bootstrap.png"
+            },
+            {
+                "name" : "Mysql",
+                "icon" :"images/icons/mysql.png"
+            }
+        ]
+    },
+    {
+        "name" : "SisTH C#",
+        "discription" : "Sistema de Triagem em estabelecimentos de saúde desenvolvido com a linguagem C#.",
+        "foto" : "images/sisthcsharp.png",
+        "tecnologies" : [
+            {
+                "name" : "C#",
+                "icon" : "images/icons/csharp.png"
+            },
+            {
+                "name" :"SQL Server",
+                "icon" : "images/icons/sqlserver.png"
+            }
+        ]
+    },
+    {
+        "name" : "SisTH PHP",
+        "discription" : "Sistema de Triagem em estabelecimentos de saúde desenvolvido com a linguagem PHP e framework Laravel.",
+        "foto" : "images/sisthphp.png",
+        "tecnologies" : [
+            {
+                "name" : "Laravel",
+                "icon" : "images/icons/laravel.png"
+            },
+            {
+                "name" :"React",
+                "icon" : "images/icons/react.png"
+            },
+            {
+                "name" :"Bootstrap",
+                "icon" : "images/icons/bootstrap.png"
+            },
+            {
+                "name" :"MySql",
+                "icon" : "images/icons/mysql.png"
+            }
+        ]
+    },
+    {
+        "name" : "Control RUP",
+        "discription" : "Sistema de controle de artefatos da metodologia de de denvolvimento de software RUP (Rational Unified Process).",
+        "foto" : "images/controlrup.png",
+        "tecnologies" : [
+            {
+                "name" : "PHP",
+                "icon" : "images/icons/php.png"
+            },
+            {
+                "name" :"JavaScript",
+                "icon" : "images/icons/js.png"
+            },
+            {
+                "name" :"Bootstrap",
+                "icon" : "images/icons/bootstrap.png"
+            },
+            {
+                "name" :"MySql",
+                "icon" : "images/icons/mysql.png"
+            }
+        ]
+    },
+    {
+        "name" : "SisUPA",
+        "discription" : "Sistema para atendimentos em estabelecimentos de saúde.",
+        "foto" : "images/sisupa.png",
+        "tecnologies" : [
+            {
+                "name" : "Laravel",
+                "icon" : "images/icons/laravel.png"
+            },
+            {
+                "name" :"React",
+                "icon" : "images/icons/react.png"
+            },
+            {
+                "name" :"Bootstrap",
+                "icon" : "images/icons/bootstrap.png"
+            },
+            {
+                "name" :"MySql",
+                "icon" : "images/icons/mysql.png"
+            }
+        ]
+    },
+    {
+        "name" : "MyChurch",
+        "discription" : "Sistema utilizado para gestão de participantes em igrejas.",
+        "foto" : "images/mychurch.png",
+        "tecnologies" : [
+            {
+                "name" : "Laravel",
+                "icon" : "images/icons/laravel.png"
+            },
+            {
+                "name" :"Vue",
+                "icon" : "images/icons/vue.png"
+            },
+            {
+                "name" :"Vuetify",
+                "icon" : "images/icons/vuetify.png"
+            },
+            {
+                "name" :"MySql",
+                "icon" : "images/icons/mysql.png"
+            }
+        ]
+    }
+]
