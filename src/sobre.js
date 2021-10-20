@@ -11,7 +11,7 @@ const Sobre = () => {
                     <br/><br/>
                     Atualmente possuo conhecimento das seguintes tecnologias: PHP (Laravel), JavaScript (React), HTML,  CSS (Bootstrap) e Mysql.
                     <br/><br/>
-                    Minhas Características: <b>Dedicação, Proatividade, Determinação, Curiosidade e Ética.</b> 
+                    Minhas principais características: <b>Dedicação, Proatividade, Determinação, Curiosidade e Ética.</b> 
                 </div>
             </div>
         </div>
