@@ -1,12 +1,14 @@
 import Home from './home';
 import Footer from './footer';
-import Header from './header';
+import Projects from './projects';
+import Sobre from './sobre';
 
 function App() {
   return (
     <div>
-        <Header/>
         <Home/>
+        <Sobre/>
+        <Projects/>
         <Footer/>
     </div>
   );

@@ -1,20 +1,16 @@
 import React from 'react';
-import Project from './project';
-import projects from'./projects.json';
-import Sobre from './sobre';
+import Header from './header';
 
 const Home = () =>{
     return(
-        <div className="container">
-            <Sobre/>
-            <div id="projetos">
-                <h1 id="titulo-projeto" className="text-center">Projetos</h1>
-                {
-                    projects.map((element,index) => 
-                        <Project project={element} index={index} key={index}/>
-                    )
-                }
-            </div>
+        <div>
+            <div className="row" id="home" style={{backgroundImage: `url("images/bgHome.jpg")` }}>
+                    <Header/>
+                    <div className="col-md-10">
+                        <h1 className="text-center">Renan Rodrigues</h1>
+                        <h2 className="text-center">{"{"} Desenvolvedor FullStack {"}"}</h2>
+                    </div>
+                </div>
         </div>
     );
 }

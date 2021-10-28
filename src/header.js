@@ -1,14 +1,27 @@
 import React from 'react';
 import './menu.css';
 
+window.onload = () => {
+    var menu = document.getElementById('menu'); 
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > 50) {
+            menu.classList.add('menuFixo');
+        }
+        else {
+            menu.classList.remove('menuFixo')
+        };
+    });
+}
+
 const Header = () => {
     return(
-        <header className="menu">
+        <header className="menu" id="menu">
            <nav>
                 <input type="checkbox" id="bt_menu" />
                 <label htmlFor="bt_menu">&#9776;</label>
-                <label id="logo">Renan Rodrigues</label>
+                <label id="logo"></label>
                 <ul>
+                    <li><a href="#">Início</a></li>
                     <li><a href="#sobre-mim">Sobre mim</a></li>
                     <li><a href="#projetos">Projetos</a></li>
                     <li><a href="#contato">Contato</a></li>
