@@ -13,7 +13,7 @@ const Project = (props) =>{
                         {props.project.discription}
                     </div>
                     <div className="col-md-10">
-                        <a className="link-gitHub" href="#">Acessar o repositorio no GitHub</a>
+                        <a className="link-gitHub" href={"https://github.com/RenanRodriguesdosSantos/" + props.project.repository}>Acessar o repositorio no GitHub</a>
                     </div>
                     <div className="col-md-10 tecnologias">
                         <h5>Tecnologias</h5>
