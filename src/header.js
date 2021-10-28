@@ -21,7 +21,7 @@ const Header = () => {
                 <label htmlFor="bt_menu">&#9776;</label>
                 <label id="logo"></label>
                 <ul>
-                    <li><a href="#">Início</a></li>
+                    <li><a href="#inicio">Início</a></li>
                     <li><a href="#sobre-mim">Sobre mim</a></li>
                     <li><a href="#projetos">Projetos</a></li>
                     <li><a href="#contato">Contato</a></li>
