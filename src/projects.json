@@ -3,6 +3,7 @@
         "name" : "Map Contact",
         "discription" : "Visualização de Contatos em um mapa",
         "foto" : "images/mapcontato.png",
+        "repository" : "/mapcontact",
         "tecnologies" : [
             {
                 "name" : "JavaScript",
@@ -30,6 +31,7 @@
         "name" : "SisTH C#",
         "discription" : "Sistema de Triagem em estabelecimentos de saúde desenvolvido com a linguagem C#.",
         "foto" : "images/sisthcsharp.png",
+        "repository" : "/SisTH",
         "tecnologies" : [
             {
                 "name" : "C#",
@@ -45,6 +47,7 @@
         "name" : "SisTH PHP",
         "discription" : "Sistema de Triagem em estabelecimentos de saúde desenvolvido com a linguagem PHP e framework Laravel.",
         "foto" : "images/sisthphp.png",
+        "repository" : "/sisth",
         "tecnologies" : [
             {
                 "name" : "Laravel",
@@ -68,6 +71,7 @@
         "name" : "Control RUP",
         "discription" : "Sistema de controle de artefatos da metodologia de de denvolvimento de software RUP (Rational Unified Process).",
         "foto" : "images/controlrup.png",
+        "repository" : "/GerenciadorPU",
         "tecnologies" : [
             {
                 "name" : "PHP",
@@ -91,6 +95,7 @@
         "name" : "SisUPA",
         "discription" : "Sistema para atendimentos em estabelecimentos de saúde.",
         "foto" : "images/sisupa.png",
+        "repository" : "/sisupa",
         "tecnologies" : [
             {
                 "name" : "Laravel",
@@ -114,6 +119,7 @@
         "name" : "MyChurch",
         "discription" : "Sistema utilizado para gestão de participantes em igrejas.",
         "foto" : "images/mychurch.png",
+        "repository" : "/MyChurch",
         "tecnologies" : [
             {
                 "name" : "Laravel",
