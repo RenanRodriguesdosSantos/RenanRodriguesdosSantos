@@ -12,9 +12,7 @@ const Project = (props) =>{
                     <div className="col-md-10 project-discription">
                         {props.project.discription}
                     </div>
-                    <div className="col-md-10">
-                        <a className="link-gitHub" href={"https://github.com/RenanRodriguesdosSantos/" + props.project.repository}>Acessar o repositorio no GitHub</a>
-                    </div>
+                   
                     <div className="col-md-10 tecnologias">
                         <h5>Tecnologias</h5>
                         <div className="row h-center">
@@ -26,6 +24,9 @@ const Project = (props) =>{
                                 )
                             }
                         </div>
+                    </div> 
+                    <div className="col-md-10 div-link-gitHub">
+                        <a className="link-gitHub" href={"https://github.com/RenanRodriguesdosSantos/" + props.project.repository}>Acessar o repositorio no GitHub</a>
                     </div>
                 </div>
             </div>
