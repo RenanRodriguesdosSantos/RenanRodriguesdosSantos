@@ -4,7 +4,7 @@
     background-color: rgba(41, 41, 46, .25);
     position: fixed;
     top: 0;
-    padding: 20px 0px 7px 0px;
+    padding: 30px 0px 7px 0px;
 }
 
 .menu ul{
@@ -40,8 +40,13 @@ label[for="bt_menu"]{
     background-color: #fff;
 }
 
+.menu a:target{
+    color:#1080ff
+}
+
 .menuFixo{
     background-color: #29292e;
+    padding: 20px 0px 7px 0px;
 }
 
 #bt_menu{
