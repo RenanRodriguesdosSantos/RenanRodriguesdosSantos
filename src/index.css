@@ -45,19 +45,18 @@ body{
 }
 
 .icon{
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  transition: padding ease-in-out 1.5s;
 }
 
 .div-icon{
   max-height: 50px;
 }
 
-.div-icon:hover img{
-  width: 48px;
-  height: 48px;
-  border-radius: 5px;
-  background-color: #201c1c;
+.icon:hover{
+  opacity: .8;
 }
 
 .tecnologias{
@@ -82,7 +81,7 @@ body{
 .project > h1{
   padding-top: 3vw;
   letter-spacing: .8vw;
-  font-size: 4vw;
+  font-size: clamp(1.5em, 1em + 1.5vw, 5em)
 }
 
 .project-discription{
@@ -95,7 +94,7 @@ body{
   background-color: #29292e;
   color: #fff;
   margin-bottom: 5px;
-  font-size: clamp(1.5em, 1em + 1vw, 5em);
+  font-size: clamp(2em, 1em + 1.5vw, 5em);
   text-align: center;
 }
 
@@ -130,11 +129,6 @@ body{
 #contato{
   background-color: #29292e;
   color: #fff;
-  padding: 20px 0px 20px 0px;
-}
-
-#contato div{
-  margin: 10px;
 }
 
 #contato a{
@@ -142,6 +136,10 @@ body{
   color: #fff;
   font-size: 16pt;
   padding: 20px;
+}
+
+#contato > div{
+  margin-bottom: 50px;
 }
 
 #perfil{
