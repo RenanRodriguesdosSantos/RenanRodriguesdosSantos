@@ -4,7 +4,7 @@
     background-color: rgba(41, 41, 46, .25);
     position: fixed;
     top: 0;
-    padding: 30px 0px 7px 0px;
+    padding: 25px 0px 18px 0px;
 }
 
 .menu ul{
@@ -29,15 +29,13 @@ label[for="bt_menu"]{
 
 .menu a{
     color: #fff;
-    padding: 10px;
+    padding: 10px 10px 2px 10px;
     text-decoration: none;
     font-size: 20px;
-    border-radius: 10px;
 }
 
 .menu a:hover{
-    color: #000;
-    background-color: #fff;
+    border-bottom: 5px solid #fff;
 }
 
 .menu a:target{
@@ -46,26 +44,28 @@ label[for="bt_menu"]{
 
 .menuFixo{
     background-color: #29292e;
-    padding: 20px 0px 7px 0px;
+    padding: 20px 0px 15px 0px;
 }
 
 #bt_menu{
     display: none;
 }
 
-#logo{
-    font-size: 5vh;
-    margin-left: 20px;
-}
-
 @media(max-width: 768px) {
+    .menu{
+        background-color: #29292e;
+        padding: 10px 0px 7px 0px;
+        
+    }
     .menu ul li{
         width: 100%;
         float: none;
+        margin: 6px;
     }
     label[for="bt_menu"]{
         display: block;
         float: right;
+        margin-right: 15px;
     }
     .menu ul{
         display: none;
@@ -76,5 +76,14 @@ label[for="bt_menu"]{
     }
     .menu #bt_menu:checked ~ ul{
         display: block;
+    }
+    .menu label > span:nth-child(2) {
+        display: none;
+    }
+    .menu #bt_menu:checked ~ label > span:nth-child(2){
+        display: block;
+    }
+    .menu #bt_menu:checked ~ label > span:nth-child(1){
+        display: none;
     }
 }

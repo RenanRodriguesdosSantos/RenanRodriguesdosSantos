@@ -22,6 +22,7 @@ const Sobre = () => {
                                         <li>Determinação</li>
                                         <li>Curiosidade</li>
                                         <li>Ética</li>
+                                        <li>Empatia</li>
                                     </ul>
                                 </div>
                                 <div className="col-md-6">

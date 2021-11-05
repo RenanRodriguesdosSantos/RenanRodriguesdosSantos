@@ -12,21 +12,20 @@ const Project = (props) =>{
                     <div className="col-md-10 project-discription">
                         {props.project.discription}
                     </div>
-                   
                     <div className="col-md-10 tecnologias">
                         <h5>Tecnologias</h5>
                         <div className="row h-center">
                             {
                                 props.project.tecnologies.map((element, index) =>
                                     <div className="col-md-1 div-icon" key={index}>
-                                        <img className="icon" src={element.icon} alt={element.name}/>
+                                        <attr title={element.name}><img className="icon" src={element.icon} alt={element.name}/></attr>
                                     </div>
                                 )
                             }
                         </div>
                     </div> 
                     <div className="col-md-10 div-link-gitHub">
-                        <a className="link-gitHub" href={"https://github.com/RenanRodriguesdosSantos/" + props.project.repository}>Acessar o repositorio no GitHub</a>
+                        <a className="link-gitHub" target="_blank" href={"https://github.com/RenanRodriguesdosSantos/" + props.project.repository}>Acessar o repositorio no GitHub</a>
                     </div>
                 </div>
             </div>

@@ -18,7 +18,7 @@ const Header = () => {
         <header className="menu" id="menu">
            <nav>
                 <input type="checkbox" id="bt_menu" />
-                <label htmlFor="bt_menu">&#9776;</label>
+                <label htmlFor="bt_menu"><span>&#9776;</span><span>&#10799;</span></label>
                 <label id="logo"></label>
                 <ul>
                     <li><a href="#inicio">Início</a></li>
