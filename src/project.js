@@ -25,7 +25,7 @@ const Project = (props) =>{
                         </div>
                     </div> 
                     <div className="col-md-10 div-link-gitHub">
-                        <a className="link-gitHub" target="_blank" href={"https://github.com/RenanRodriguesdosSantos/" + props.project.repository}>Acessar o repositorio no GitHub</a>
+                        <a className="link-gitHub" target="_blank" rel="noreferrer"  href={"https://github.com/RenanRodriguesdosSantos/" + props.project.repository}>Acessar o repositorio no GitHub</a>
                     </div>
                 </div>
             </div>
